@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" context="width=device-width,initial-scale=1.0">
+	<title>Box Shadow</title>
+	<style>
+		h1{
+			text-align: center;
+			color: red;
+			text-shadow: black 6px 2px 4px;
+			box-shadow: green 8px 10px 18px 2px;
+		}
+		.contentbx {
+			box-sizing: content-box;  
+			width: 400px;
+			height: 100px;
+			padding: 30px; 
+			border: 10px solid blue;
+		}
+
+		.borderbx {
+		  box-sizing: border-box;
+		  width: 400px;
+		  height: 100px;
+		  padding: 30px;  
+		  border: 10px solid blue;
+		}
+	</style>
+	</head>
+	<body>
+	<h1>Box Shadow</h1>
+	<div class="contentbx">
+		It take the full width and the height
+	</div>
+	<div class="borderbx">
+		It take the content width and the height
+	</div>
+	</body>
+</html>
